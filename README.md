@@ -8,10 +8,15 @@ The second view takes the sport that the user selected and fetches information a
 ## Installation
 
 For physical devices:
+
 1)grab the "app-debug.apk" file in the "outputs" folder
+
 2)transfer the apk into the physical device
+
 3)in the device configurations enable installing applications from external sources
+
 4)navigate to the apk file in the device
+
 5)click on the file and accept the prompt message to install the app
 
 For Emulator:
@@ -22,5 +27,7 @@ adb push <file-source-local> <destination-path-remote>
 ```
 
 2)<file-source-local> should be the folder path for the location of the apk
+
 3)<destination-path-remote> should be the folder path where the apk will be stored in the emulator
+
 4)follow steps 3-5 of the physical device installation process
